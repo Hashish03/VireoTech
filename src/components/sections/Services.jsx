@@ -96,9 +96,6 @@ export function Services() {
                 <h3>{pkg.name}</h3>
                 <p className="package-price">{pkg.price}</p>
                 <p className="package-description">{pkg.description}</p>
-                <a href = "/contact" className={`package-button ${pkg.popular ? 'primary' : 'secondary'}`}>
-                  Get Started
-                </a>
               </div>
             ))}
           </div>

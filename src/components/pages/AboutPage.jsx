@@ -28,7 +28,8 @@ export function AboutPage() {
     { number: "15+", label: "Projects Completed" },
     { number: "12hr", label: "Response Time" },
     { number: "100%", label: "Client Satisfaction" },
-    { number: "2024", label: "Graduate" }
+    { number: "2+ Years", label: "Development Experience" }
+
   ];
 
   const processSteps = [
@@ -61,20 +62,25 @@ export function AboutPage() {
         <h1>About Vireotech</h1>
         <div className="about-content">
           <div className="about-text">
-            <p >
-              Vireotech is a digital development service specializing in creating modern, 
-              responsive websites for individuals, small businesses, and startups. As a 
-              recent graduate, I'm passionate about helping clients establish a strong online presence.
-            </p>
             <p>
-              My mission is to deliver high-quality web solutions that combine fresh perspectives 
-              with proven techniques. I bring the latest knowledge from my studies along with 
-              hands-on project experience to every client engagement.
+              Vireotech is a modern web and systems development company focused on creating
+              clean, fast, and high-performing digital solutions. I specialize in helping
+              individuals, small businesses, and growing brands establish a strong, reliable
+              online presence.
             </p>
-            <p >
-              Using cutting-edge technologies like React, Next.js, and modern CSS frameworks, 
-              I build websites that are fast, accessible, and visually appealing. My goal is 
-              to provide exceptional value while building lasting relationships with clients.
+
+            <p>
+              My work combines technical expertise, problem-solving, and a deep understanding
+              of what makes a digital product succeed. Over the years, I’ve built websites,
+              systems, dashboards, and applications that are not only visually appealing but
+              also functional, scalable, and optimized for real business use.
+            </p>
+
+            <p>
+              Using frameworks like React, Next.js, Node.js, Django, and modern CSS tools,
+              I deliver solutions that are fast, secure, and tailored to each client’s goals.
+              Each project is approached with professionalism, transparency, and a commitment
+              to long-term value.
             </p>
           </div>
           <div className="about-image">
@@ -83,7 +89,7 @@ export function AboutPage() {
               <ul>
                 <li>
                   <Award className="icon" />
-                  Fresh graduate with modern skills
+                  Skilled developer with modern technical expertise
                 </li>
                 <li>
                   <Target className="icon" />
@@ -174,24 +180,34 @@ export function AboutPage() {
 
         {/* Graduate Advantage */}
         <div className="section advantage-section">
-          <h2>The Fresh Graduate Advantage</h2>
+          <h2>The Vireotech Advantage</h2>
           <div className="advantage-grid">
             <div className="advantage-card">
-              <div className="advantage-emoji">🎓</div>
-              <h3>Latest Knowledge</h3>
-              <p>Fresh from academia with up-to-date knowledge of modern web technologies</p>
+              <div className="advantage-emoji">⚡</div>
+              <h3>Modern Technologies</h3>
+              <p>
+                I use the latest tools, frameworks, and best practices to create fast,
+                responsive, and future-proof digital products.
+              </p>
             </div>
             <div className="advantage-card">
               <div className="advantage-emoji">💡</div>
-              <h3>Innovation Focus</h3>
-              <p>Bringing creative solutions and fresh perspectives to your projects</p>
+              <h3>Innovation-Driven</h3>
+              <p>
+                Every project is designed with creativity and forward-thinking solutions
+                that help your business stand out.
+              </p>
             </div>
             <div className="advantage-card">
-              <div className="advantage-emoji">💰</div>
-              <h3>Competitive Rates</h3>
-              <p>Quality work at affordable prices as I build my professional reputation</p>
+              <div className="advantage-emoji">🤝</div>
+              <h3>Fair & Transparent Pricing</h3>
+              <p>
+                Flexible, affordable pricing designed to give you exceptional value without
+                compromising quality.
+              </p>
             </div>
-          </div>
+        </div>
+
         </div>
 
         {/* CTA */}

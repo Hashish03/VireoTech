@@ -3,3 +3,5 @@ export { Portfolio } from "./Portfolio";
 export { ContactForm } from "./ContactForm";
 export { Hero } from "../sections/Hero";
 export { CTA } from "../sections/CTA";
+export { ValueSection } from "./Value";
+export { ProcessSection } from "./Process";

@@ -7,6 +7,7 @@ export function Navbar() {
       <ul className="nav-links">
         {[
           { path: "/", name: "Home" },
+          { path: "/service", name: "Service" },
           { path: "/portfolio", name: "Portfolio" },
           { path: "/about", name: "About" },
           { path: "/contact", name: "Contact" },

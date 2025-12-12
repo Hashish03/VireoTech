@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Header, Footer } from "./components/layout";
-import { Home, PortfolioPage, AboutPage, ContactPage } from "./components/pages";
+import { Home, PortfolioPage, AboutPage, ContactPage, ServicePage } from "./components/pages";
 
 export default function App() {
   return (
@@ -9,6 +9,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/service" element={ <ServicePage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />

@@ -4,21 +4,7 @@ import { Mail, Phone, MapPin, Send } from "lucide-react";
 export function ContactPage() {
   return (
     <div className="contact-page">
-      {/* Hero Section */}
-      <div className="contact-hero">
-        <div className="hero-background">
-          <div className="gradient-orb orb-1"></div>
-          <div className="gradient-orb orb-2"></div>
-          <div className="gradient-orb orb-3"></div>
-        </div>
-        <div className="hero-content">
-          <h1 className="hero-title">Let's Build Something Amazing</h1>
-          <p className="hero-subtitle">
-            We're here to turn your digital vision into reality. Reach out and let's start the conversation.
-          </p>
-        </div>
-      </div>
-
+    
       {/* Main Contact Section */}
       <div className="container">
         <div className="contact-content">
