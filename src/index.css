@@ -1877,7 +1877,6 @@ body.menu-open {
   color: #fff;
   margin-top: 80px;
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -1990,22 +1989,22 @@ body.menu-open {
 }
 
 .quote-author {
-  font-size: 14px;
+  font-size: 12px;
   color: #a0a0a0;
   font-weight: 500;
 }
 
 /* Trusted by section */
 .trusted-by {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .trusted-label {
-  font-size: 14px;
+  font-size: 12px;
   color: #a0a0a0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -2189,17 +2188,17 @@ body.menu-open {
 /* Footer Bottom - Fixed spacing */
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 25px 0;
+  padding: 15px 0;
   background: rgba(0, 0, 0, 0.2);
   width: 100%;
-  margin-top: auto;
+  margin-top: 30px;
 }
 
 .footer-copyright {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 1px;
   text-align: center;
 }
 
@@ -2207,7 +2206,7 @@ body.menu-open {
   .footer-copyright {
     flex-direction: row;
     justify-content: space-between;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -2221,7 +2220,7 @@ body.menu-open {
 .footer-legal {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1px;
   font-size: 14px;
 }
 
@@ -2307,11 +2306,11 @@ body.menu-open {
   }
   
   .footer-copyright {
-    gap: 12px;
+    gap: 2px;
   }
   
   .footer-legal {
-    gap: 15px;
+    gap: 2px;
     flex-wrap: wrap;
     justify-content: center;
   }
